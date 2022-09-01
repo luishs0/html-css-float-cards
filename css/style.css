@@ -17,7 +17,7 @@ body{
 
 /* CONTAINER */
 .container{
-    width: 70%;
+    width: 60%;
     margin: 4rem auto;
 }
 
@@ -34,14 +34,12 @@ h1{
 
 /* PEOPLE */
 .people{
-    /* --------------------------- */
-    width: calc(100% / 3 - 6rem);
+    width: calc(100% / 3 - 1em);
     height: 100px;
     background-color: #0f0e17;
     border: 1px solid white;
-    /* --------------------------- */
+    margin-bottom: 5rem;
     float: left;
-    
 }
 
 .clearfix::after{
@@ -51,11 +49,38 @@ h1{
 }
 
 .margin{
-    margin-right: 3rem
+    margin-right: 1.5em
 }
 
 .not-margin{
     margin-right: 0;
 }
+
+.people img{
+    height: 100%;
+    float: left;
+    margin-right: 1rem;
+}
+
+.people h3{
+    color: white;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+    padding-left: 1rem;
+}
+
+.job{
+    color: white;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+.email{
+    color: aqua;
+    font-size: 1.2rem;
+    display: inline-block;
+}
 /* /PEOPLE */
+/* CONTAINER */
 
