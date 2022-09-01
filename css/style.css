@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* FONT */
 html{
     font-size: 62.5%;
 }
@@ -12,3 +13,45 @@ body{
     font-family: 'Fredoka', sans-serif;
     font-size: 1.6rem;
 }
+/* /FONT */
+
+/* CONTAINER */
+.container{
+    width: 70%;
+    margin: 4rem auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 4rem;
+    color: #e43270;
+}
+
+.container > p{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+/* PEOPLE */
+.people{
+    /* --------------------------- */
+    width: calc(100% / 3 - 6rem);
+    height: 100px;
+    background-color: #0f0e17;
+    border: 1px solid white;
+    /* --------------------------- */
+    float: left;
+    
+}
+
+
+
+.margin{
+    margin-right: 3rem
+}
+
+.not-margin{
+    margin-right: 0;
+}
+/* /PEOPLE */
+
