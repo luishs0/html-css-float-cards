@@ -44,7 +44,11 @@ h1{
     
 }
 
-
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .margin{
     margin-right: 3rem
